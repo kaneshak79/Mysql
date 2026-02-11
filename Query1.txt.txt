@@ -1,0 +1,6 @@
+1. Customers who placed orders in last 30 days
+
+SELECT DISTINCT c.*
+FROM customers c
+JOIN orders o ON c.id = o.customer_id
+WHERE o.order_date >= CURDATE() - INTERVAL 30 DAY;

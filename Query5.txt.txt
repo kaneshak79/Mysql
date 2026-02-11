@@ -1,0 +1,6 @@
+5. Retrieve the top 3 products with the highest price
+
+SELECT *
+FROM products
+ORDER BY price DESC
+LIMIT 3;

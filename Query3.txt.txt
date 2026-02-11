@@ -1,0 +1,5 @@
+3. Update price of Product C to 45.00
+
+UPDATE products
+SET price = 45.00
+WHERE id=3;

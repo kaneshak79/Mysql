@@ -1,0 +1,4 @@
+4. Add a new column discount to the products table
+
+ALTER TABLE products
+ADD discount DECIMAL(5,2);
